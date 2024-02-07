@@ -6,15 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="Todo.ts"></script>
 </head>
 
 <body>
-    <div class="Add"><input class="task"><button class="addTask">ADD</button></div>
+    <h1 class="Title">THE ULTIMATE TO DO LIST</h1>
+    <div class="Add"><input class="task" placeholder="Add todo"><button class="addTask">ADD</button></div>
     <div class="List">
-        <div class="card"><input type="checkbox">
-            <p class="todoTitle">Finish this todo site</p> <img src="remove.png" class="trashCan" width="30"
-                height="30">
-        </div>
+        <ul class="toDoList">
+            <div class="card"><input class="check" type="checkbox">
+                <p class="todoTitle">Finish this todo site</p> <img src="remove.png" class="trashCan" width="30"
+                    height="30">
+            </div>
+            <div class="card"><input class="check" type="checkbox">
+                <p class="todoTitle">Finish this todo site</p> <img src="remove.png" class="trashCan" width="30"
+                    height="30">
+            </div>
+        </ul>
     </div>
 </body>
 
