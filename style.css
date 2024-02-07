@@ -41,7 +41,7 @@ body {
     width: 20rem;
 }
 
-.task {
+#task {
     border: none;
     padding: 6px;
     border-radius: 10px;
@@ -56,7 +56,7 @@ body {
     margin-right: 10px;
 }
 
-.addTask {
+#addTask {
     width: 3rem;
     padding: 5px;
     margin-top: 20px;
