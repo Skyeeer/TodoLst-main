@@ -3,10 +3,17 @@ document.addEventListener('DOMContentLoaded', () => {
     ListVis();
     ClearAllEvent();
 });
+
+interface toDoItem {
+    id: string;
+    content: string;
+    completed: boolean;
+}
+
 const inputField = document.getElementById('task') as HTMLInputElement;
 const addBtn = document.getElementById('addTask') as HTMLInputElement;
 const toDoList = document.getElementById('toDoList') as HTMLUListElement;
-let todos: { id: string; content: string; completed: boolean; }[] = [];
+let todos: toDoItem[] = [];
 
 
 if (addBtn && inputField && toDoList) {
