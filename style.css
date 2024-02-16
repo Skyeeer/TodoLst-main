@@ -72,4 +72,32 @@ body {
     background-clip: text;
     -webkit-text-fill-color: transparent;
     color: transparent;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.crossed-out {
+    text-decoration: line-through;
+}
+
+#clear {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1rem;
+    background-color: rgba(126, 126, 126, 0.738);
+    color: white;
+    border: transparent 2px;
+}
+
+#clear:hover {
+    background-color: rgba(255, 67, 67, 0.522);
+}
+
+@media screen and (max-width: 700px) {
+    .Title {
+        font-size: 2.4rem;
+    }
 }
